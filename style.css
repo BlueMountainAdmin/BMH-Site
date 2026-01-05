@@ -65,16 +65,13 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 12px;
-  font-weight: 800;
-  letter-spacing: 0.4px;
 }
 
-.brand-mark {
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
-  background: radial-gradient(circle at 25% 25%, #b6d1ff, #2d6cdf);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6), var(--shadow);
+.brand-logo {
+  display: block;
+  height: 44px;
+  width: auto;
+  object-fit: contain;
 }
 
 .nav {

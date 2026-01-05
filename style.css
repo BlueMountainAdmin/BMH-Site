@@ -69,7 +69,8 @@ img {
 
 .brand-logo {
   display: block;
-  height: 44px;
+  height: 32px;
+  max-width: 190px;
   width: auto;
   object-fit: contain;
 }

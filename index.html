@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blue Mountain Homes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="assets/BMH.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="brand" href="#">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Blue Mountain Homes</span>
+        </a>
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-toggle-icon"></span>
+          </button>
+          <ul class="nav-list" id="nav-list">
+            <li><a href="#mission">Mission</a></li>
+            <li><a href="#welcome">Welcome</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#hero-cards">Explore</a></li>
+            <li><a class="btn ghost" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Empowering young people since 2002</p>
+            <h1>Safe, nurturing care for every child we welcome.</h1>
+            <p>
+              We provide individual-focused residential care for children and young people
+              across the East Midlands, creating supportive homes where potential thrives.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#news">See what's new</a>
+              <a class="btn ghost" href="#hero-cards">Discover our homes</a>
+            </div>
+          </div>
+          <div class="hero-panel">
+            <div class="panel-card">
+              <h2>Our Promise</h2>
+              <p>
+                Every journey is unique. We listen, understand, and respond with personalised care
+                that helps young people find their positive pathway.
+              </p>
+              <ul class="stats">
+                <li>
+                  <span class="stat-number">20+</span>
+                  <span class="stat-label">Years of residential care</span>
+                </li>
+                <li>
+                  <span class="stat-number">200+</span>
+                  <span class="stat-label">Dedicated team members</span>
+                </li>
+                <li>
+                  <span class="stat-number">18</span>
+                  <span class="stat-label">Homes across the region</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mission" class="section">
+        <div class="container grid two-col">
+          <div>
+            <p class="eyebrow">Our Mission</p>
+            <h2>Equipping every young person to thrive.</h2>
+            <p>
+              We are committed to providing individualised care, education, and opportunity in
+              safe, nurturing environments. Together, we empower young people to realise their
+              aspirations.
+            </p>
+          </div>
+          <div class="feature-list">
+            <article class="feature">
+              <h3>Individualised pathways</h3>
+              <p>Plans shaped around each person, co-created with families and professionals.</p>
+            </article>
+            <article class="feature">
+              <h3>Trusted homes</h3>
+              <p>Warm, welcoming spaces focused on safety, belonging, and growth.</p>
+            </article>
+            <article class="feature">
+              <h3>Dedicated people</h3>
+              <p>Teams committed to consistent, compassionate support day and night.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="welcome" class="section alt">
+        <div class="container split">
+          <div class="copy">
+            <p class="eyebrow">Welcome</p>
+            <h2>We meet every young person with care and curiosity.</h2>
+            <p>
+              We take the time to understand the needs of each young person we support. By listening
+              first, we can provide the right environment to help every individual achieve their best
+              aspirations.
+            </p>
+            <p>
+              Our homes are built on trust, respect, and meaningful relationships that encourage
+              confidence and independence.
+            </p>
+          </div>
+          <div class="media">
+            <div class="media-frame">
+              <img src="assets/Rebuilding-communities.jpeg" alt="Young people supported in community" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="news" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="eyebrow">Latest News</p>
+              <h2>What's happening at Blue Mountain Homes</h2>
+            </div>
+            <div class="carousel-controls" aria-controls="news-carousel">
+              <button class="carousel-btn" data-direction="prev" aria-label="Previous news">&#10094;</button>
+              <button class="carousel-btn" data-direction="next" aria-label="Next news">&#10095;</button>
+            </div>
+          </div>
+          <div class="carousel" id="news-carousel" aria-live="polite">
+            <div class="carousel-track">
+              <article class="news-card">
+                <img src="assets/orchardhouse.png" alt="Orchard House exterior" />
+                <div class="card-body">
+                  <h3>New home opening in 2025</h3>
+                  <p>We're preparing a new residential home to welcome more young people across the East Midlands.</p>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="assets/amberhouse.png" alt="Team members at work" />
+                <div class="card-body">
+                  <h3>Join our recruitment campaign</h3>
+                  <p>We're growing our team with new roles that support children and young people every day.</p>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="assets/beaconhouse.png" alt="Community gathering" />
+                <div class="card-body">
+                  <h3>Celebrating our leaders</h3>
+                  <p>We honour the dedication of long-serving team members as they begin new chapters.</p>
+                </div>
+              </article>
+              <article class="news-card">
+                <img src="assets/beaconhouse.png" alt="Company announcement" />
+                <div class="card-body">
+                  <h3>Fresh look, same commitment</h3>
+                  <p>Our refreshed brand reflects the care, trust, and optimism at the heart of our homes.</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="hero-cards" class="section alt">
+        <div class="container card-grid">
+          <article class="hero-card">
+            <div class="card-copy">
+              <p class="eyebrow">About Us</p>
+              <h3>Values that guide everything we do</h3>
+              <p>
+                Discover our story, our values, and how we partner with families and professionals to
+                champion young people.
+              </p>
+              <a class="btn text" href="#about">Learn more</a>
+            </div>
+            <div class="card-media">
+              <img src="assets/beaconhouse.png" alt="About our homes" />
+            </div>
+          </article>
+
+          <article class="hero-card">
+            <div class="card-media">
+              <img src="assets/amberhouse.png" alt="Team members smiling" />
+            </div>
+            <div class="card-copy">
+              <p class="eyebrow">Careers</p>
+              <h3>Grow a meaningful career with us</h3>
+              <p>
+                Join a supportive team that believes in continuous learning, wellbeing, and making a
+                difference together.
+              </p>
+              <a class="btn text" href="#careers">View opportunities</a>
+            </div>
+          </article>
+
+          <article class="hero-card" id="contact">
+            <div class="card-copy">
+              <p class="eyebrow">Contact</p>
+              <h3>Let's talk about what you need</h3>
+              <p>
+                Whether you're a parent, professional, or partner, we're here to listen and help you
+                take the next step.
+              </p>
+              <a class="btn text" href="mailto:info@bluemountainhomes.co.uk">Get in touch</a>
+            </div>
+            <div class="card-media">
+              <img src="assets/orchardhouse.png" alt="Person using phone" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand" href="#">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-text">Blue Mountain Homes</span>
+          </a>
+          <p class="footer-text">Creating safe, nurturing homes for children and young people.</p>
+        </div>
+        <div class="footer-links">
+          <h3>Explore</h3>
+          <ul>
+            <li><a href="#mission">Our mission</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#hero-cards">Our homes</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h3>Connect</h3>
+          <ul>
+            <li><a href="mailto:info@bluemountainhomes.co.uk">Email us</a></li>
+            <li><a href="tel:+441234567890">Call 01234 567 890</a></li>
+            <li><a href="#careers">Join our team</a></li>
+          </ul>
+        </div>
+      </div>
+      <p class="copyright">© 2025 Blue Mountain Homes. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

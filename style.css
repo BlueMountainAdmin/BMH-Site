@@ -9,8 +9,8 @@
   --shadow: 0 20px 60px rgba(17, 24, 39, 0.08);
   --radius: 18px;
   --transition: 200ms ease;
-  --brand-logo-height: clamp(18px, 3vw + 6px, 26px);
-  --brand-logo-max-width: clamp(120px, 18vw, 160px);
+  --brand-logo-height: clamp(24px, 4vw + 8px, 38px);
+  --brand-logo-max-width: clamp(140px, 22vw, 210px);
 }
 
 * {
